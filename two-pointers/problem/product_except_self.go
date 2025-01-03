@@ -1,5 +1,10 @@
 package twopointers
 
+/*
+- Array Size Must Be Constant: In Go, arrays are fixed-size and their size must be known at compile time. You cannot use a variable (like N) to define the size of an array.
+- Using Slices Instead: If you need a dynamically sized collection that can change during runtime, you should use slices instead of arrays.
+*/
+
 func ProductExceptSelf(nums []int) []int {
 	N := len(nums)
 	result := make([]int, N)
