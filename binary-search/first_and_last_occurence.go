@@ -1,4 +1,4 @@
-package twopointers
+package binarysearch
 
 func SearchRange(nums []int, target int) []int {
 	result := []int{-1, -1}
