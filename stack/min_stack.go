@@ -5,7 +5,7 @@ type MinStack struct {
 	minStack []int
 }
 
-func Constructor() MinStack {
+func MinStackConstructor() MinStack {
 	return MinStack{
 		stack:    []int{},
 		minStack: []int{},
